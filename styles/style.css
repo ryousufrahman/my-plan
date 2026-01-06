@@ -16,6 +16,7 @@
  display: flex;
  justify-content: end;
     align-items: center;
+    margin-bottom: 121px;
 }
 #hero-text{
   width: 40%;
@@ -32,7 +33,7 @@
     margin-bottom: 15px;
     
 }
-#hero-text p{
+.subtitle{
     font-size: 16px;
     color: black;
     margin-bottom: 25px;
@@ -48,5 +49,34 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+/* failures section  */
+
+#failure-section{
+  width: 71%;
+  max-width: 1141px;
+  margin: 0 auto;
+  margin-bottom: 123px;
+  
+  
+}
+#failure-container{
+  display: flex;
+  gap: 87px;
+  align-items: center;
+
+}
+.failure-text h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.other-p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+/* failure section complete  */
+
     
     
