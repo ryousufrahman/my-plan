@@ -35,10 +35,15 @@
 }
 .subtitle{
     font-size: 16px;
-    color: black;
     margin-bottom: 25px;
+    
+   
     color:#444343;
     
+}
+.hero-subtile{
+    margin-bottom: 32px;
+    color: #444343;
 }
 .btn{
   background-color:#F15B22 ;
@@ -71,12 +76,49 @@
   font-weight: bold;
   margin-bottom: 24px;
 }
-.other-p{
-    font-size: 16px;
-    color: #444343;
-    margin-bottom: 8px;
+.failure-text ul li{
+  list-style: none;
+  margin-bottom: 8px;
+  color: #444343;
+}
+.failure-text ul li i{
+  color: forestgreen;
 }
 /* failure section complete  */
+/* plans section  */
+#plan-section{
+  width: 71%;
+  max-width: 1141px;
+  margin: 0 auto;
+  margin-bottom: 129px;
+  
+  
+}
+.plan-container h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+.plans{
+  display: flex;
+  justify-content: space-between;
+}
+.plan h4{
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.plan-img-box{
+  display: flex;
+  justify-content: center;
+}
+.plan p{
+  text-align: center;
+  color: #444343;
+  font-size: 16px;
+}
 
     
     
