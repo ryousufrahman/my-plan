@@ -126,7 +126,7 @@
   width :71%;
   max-width: 1141px;
   margin: 0 auto;
-  margin-bottom: 75px;
+  margin-bottom: 121px;
 }
 .positive-container{
   width: 100%;
@@ -164,7 +164,17 @@ footer{
   width: 100%;
   height: 577px;
   background-color: black;
+ 
   
+}
+.footer-container{
+  width: 71%;
+  max-width: 1141px;
+  margin:  auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 118px;
 }
     
     
