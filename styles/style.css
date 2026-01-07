@@ -173,8 +173,41 @@ footer{
   margin:  auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   padding-top: 118px;
 }
-    
+.footer-box1 h3{
+  color: white;
+  font-size:45px ;
+  font-weight: bold;
+  margin-bottom: 118px;
+}
+.footer-box1 p{
+  font-size: 16px;
+  margin-bottom: 16px ;
+  color: white;
+}
+.footer-icon{
+  display: flex;
+  gap: 17px;
+  margin-top: 16px;
+}
+.footer-box2 h4{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 31px;
+}
+input{
+  height: 64px;
+  width: 325px;
+  padding:21px 21px ;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+  display: block;
+  margin-bottom: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
     
